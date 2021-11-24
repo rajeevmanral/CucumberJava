@@ -26,6 +26,7 @@ public class steps_PF {
     @And("user is on login page")
     public void userIsOnLoginPage() {
         driver.navigate().to("https://example.testproject.io/web/");
+        System.out.println("I am in steps folder");
 
     }
 
